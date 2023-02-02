@@ -1,9 +1,8 @@
-var button = document.getElementById("myButton");
-var burgerMenu = document.querySelector(".burger-menu");
-var menu = document.querySelector(".menu");
-button.addEventListener("click", function () {
-    alert("Button was clicked!");
-});
-burgerMenu.addEventListener("click", function () {
-    menu.classList.toggle("open");
+var toggleButton = document.querySelector("#theme-switch");
+var elements = document.querySelectorAll("[class=dark-theme]");
+toggleButton.addEventListener("click", function () {
+    elements.forEach(function (element) {
+        element.classList.toggle("light-theme");
+        element.classList.toggle("dark-theme");
+    });
 });

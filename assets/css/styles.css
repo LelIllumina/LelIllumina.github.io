@@ -1,65 +1,128 @@
-body {
-	color: #cdd6f4;
-	background-color: #1e1e2e;
-	font-family: Arial, sans-serif;
-	margin: 0;
-	padding: 0;
+/* Dark theme styles */
+body.dark-theme {
+    color: #cdd6f4;
+    background-color: #1e1e2e;
 }
 
-h1,
+p.dark-theme {
+    color: #bac2de;
+}
+
+a.dark-theme {
+    color: #89b4fa;
+}
+
+a.dark-theme:hover {
+    color: #89b4fa;
+}
+
+button.dark-theme {
+    background-color: #45475a;
+    color: #cdd6f4;
+}
+
+footer.dark-theme {
+    background-color: #181825;
+}
+
+h1.dark-theme {
+    color:black
+}
+
+header.dark-theme {
+    background-color: #cba6f7;
+}
+
+/* Light theme styles */
+body.light-theme {
+    color: #4c4f69;
+    background-color: #eff1f5;
+}
+
+p.light-theme {
+    color: #5c5f77;
+}
+
+a.light-theme {
+    color: #1e66f5;
+}
+
+button.light-theme {
+    background-color: #bcc0cc;
+    color: #4c4f69;
+}
+
+button.light-theme:hover {
+    background-color: #ccd0da;
+}
+
+footer.light-theme {
+    background-color: #dce0e8;
+}
+
+h1.light-theme {
+    color:white
+}
+
+header.light-theme {
+    background-color: #8839ef;
+}
+/* Main Body */
+
+header {
+    background-color: #cba6f7;
+    padding: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
 h2,
 h3,
 h4,
 h5,
 h6 {
-	font-family: Arial, sans-serif;
-	font-weight: bold;
-	margin: 0;
-	padding: 0;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
 }
 
 p {
-	color: #bac2de;
-	font-family: Arial, sans-serif;
-	font-size: 16px;
-	line-height: 1.5;
-	margin: 0;
-	padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
 }
 
 a {
-	color: #89b4fa;
-	text-decoration: none;
+    text-decoration: none;
 }
 
 a:hover {
-	color: #89b4fa;
-	text-decoration: underline;
-}
-
-header {
-	background-color: #cba6f7;
-	padding: 20px;
-}
-footer {
-	background-color: #181825;
-	padding: 20px;
+    text-decoration: underline;
 }
 
 main {
-	padding: 20px;
+    padding: 20px;
+}
+
+footer {
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 button {
-	background-color: #45475a;
-	border: none;
-	color: white;
-	cursor: pointer;
-	font-family: Arial, sans-serif;
-	padding: 10px 20px;
-	border-radius: 5px;
-}
-
-button:hover {
-	background-color: #313244;
+    border: none;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    padding: 10px 20px;
+    border-radius: 5px;
 }

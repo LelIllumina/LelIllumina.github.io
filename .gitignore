@@ -8,6 +8,3 @@ node_modules/
 .prettierrc.json
 .eslintrc.json
 .stylelintrc
-
-# TypeScript
-.js
