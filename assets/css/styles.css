@@ -19,6 +19,7 @@ h6 {
 }
 
 p {
+	color: #bac2de;
 	font-family: Arial, sans-serif;
 	font-size: 16px;
 	line-height: 1.5;
@@ -36,7 +37,10 @@ a:hover {
 	text-decoration: underline;
 }
 
-header,
+header {
+	background-color: #cba6f7;
+	padding: 20px;
+}
 footer {
 	background-color: #181825;
 	padding: 20px;
@@ -47,14 +51,40 @@ main {
 }
 
 button {
-	background-color: blue;
+	background-color: #45475a;
 	border: none;
 	color: white;
 	cursor: pointer;
 	font-family: Arial, sans-serif;
 	padding: 10px 20px;
+    border-radius: 5px;
 }
 
 button:hover {
-	background-color: darkblue;
+	background-color: #313244;
+}
+
+.burger-menu {
+	display: none;
+	cursor: pointer;
+}
+.menu {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	width: 100vw;
+	background-color: lightgray;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: all 0.3s ease-out;
+	transform: translateX(-100%);
+}
+.menu.open {
+	transform: translateX(0);
+}
+.menu-item {
+	margin: 1rem 0;
 }

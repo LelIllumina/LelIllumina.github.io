@@ -6,5 +6,8 @@ node_modules/
 
 # Configuration files
 .prettierrc.json
-.eslintrc
+.eslintrc.json
 .stylelintrc
+
+# TypeScript
+.js
