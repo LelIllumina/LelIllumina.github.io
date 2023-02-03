@@ -1,13 +1,13 @@
 {
   "dependencies": {
     "eslint": "^8.33.0",
-    "stylelint": "^14.16.1"
+    "stylelint": "^14.16.1",
+    "ts-node": "^10.9.1"
   },
   "name": "lelillumina.github.io",
   "version": "1.0.0",
   "description": "basic website",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
