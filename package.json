@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/LelIllumina/LelIllumina.github.io/issues"
   },
-  "homepage": "https://github.com/LelIllumina/LelIllumina.github.io#readme"
+  "homepage": "https://github.com/LelIllumina/LelIllumina.github.io#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
 }

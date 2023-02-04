@@ -8,6 +8,6 @@
     "rootDir": "./src"
   },
   "include": [
-    "assets/js.ts"
+    "assets/js/"
   ]
 }
