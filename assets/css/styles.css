@@ -125,10 +125,14 @@ button {
 
 .neco {
     display: inline-block;
-    position: absolute;
+    /* width: calc(33.33% - 10px); */
+    position: absolute; 
     top: 0;
-    right: 0;
-    /* max-height: 100%;
-    max-width: 100%;  */
-    width: 100%;
+    right: 0; 
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.neco img {
+    width: 50%;
 }
