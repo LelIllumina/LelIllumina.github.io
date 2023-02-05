@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "animejs": "^3.2.1",
     "eslint": "^8.33.0",
     "stylelint": "^14.16.1",
     "ts-node": "^10.9.1"
@@ -20,8 +21,5 @@
   "bugs": {
     "url": "https://github.com/LelIllumina/LelIllumina.github.io/issues"
   },
-  "homepage": "https://github.com/LelIllumina/LelIllumina.github.io#readme",
-  "devDependencies": {
-    "tailwindcss": "^3.2.4"
-  }
+  "homepage": "https://github.com/LelIllumina/LelIllumina.github.io#readme"
 }
